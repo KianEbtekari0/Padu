@@ -1,2 +1,2 @@
 # Padu is 3D my website 
-/tmp/mozilla_kian0/Screenshot from 2021-12-02 15-56-06.png
+![image](https://user-images.githubusercontent.com/92510927/144502129-825f8545-9f3e-4338-aad3-c93db1c6dc2e.png)
