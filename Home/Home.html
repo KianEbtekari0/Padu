@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Home.css">
+    <title>3D website</title>
+</head>
+<header>
+    <!-- hamburgery -->
+    <nav class="nav">
+        <h1 class="textLogo">padu</h1>
+        
+        <div class="menu" id="myNav">
+            <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+            
+            <div class="page-menu">
+                <a href="#" onclick="closeNav()">Home</a>
+                <a href="#" onclick="closeNav()">Cards</a>
+                <a href="#">Social media</a>
+            </div>
+        </div>
+    </nav>
+    <a href="#" class="menu-link" onclick="openNav()"><i class='bx bx-menu bx-md'></i></a>
+</header>
+<body>
+    <div class="WelcomeText">
+        <h5>Welcome to the website kian ebtekari</h5>
+        <h1>Hello welcome to the my website 3D</h1>
+        <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+            Est facilis architecto nihil molestiae quasi voluptatum adipisci minima error <br>
+            tempora, hic placeat consectetur maiores! Ipsum nobis hic vero doloribus deleniti.</h4>
+        <button class="button">Lets Go</button>
+        <img src="image/scoterX.png" alt="image" class="image">
+
+        <div class="Tools">
+            <a href="#"><i class='bx bxl-google bx-lg'></i></a>
+            <a href="#"><i class='bx bxl-github bx-lg'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle bx-lg'></i></a> <br>
+            <a href="#"><i class='bx bxl-twitter bx-lg'></i></a>
+            <a href="#"><i class='bx bxl-youtube bx-lg'></i></a>
+            <a href="#"><i class='bx bxl-linkedin-square bx-lg'></i></a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="div">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">drees</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="bx bxl-facebook bx-sm"></i></a>
+                        <a href="#"><i class="bx bxl-twitter bx-sm"></i></a>
+                        <a href="#"><i class="bx bxl-instagram bx-sm"></i></a>
+                        <a href="#"><i class="bx bxl-linkedin bx-sm"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Code -->
+    <script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+</body>
+</html>
