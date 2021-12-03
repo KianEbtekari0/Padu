@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@300;400;500;700;900&display=swap');
 
 html, body {
     background-color: #000;
@@ -37,7 +38,7 @@ body.page-menu {
 
 .menu {
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka One', cursive;
     width: 0;
     position: fixed;
     z-index: 1000;
@@ -85,7 +86,7 @@ body.page-menu {
     font-weight: 500;
     font-size: 40px;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', cursive;
 }
 
 .WelcomeText h4 {
@@ -156,7 +157,7 @@ body.page-menu {
 .WelcomeText h5 {
     color: #818181;
     margin-top: 200px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka One', cursive;
 }
 
     /* Footer */
@@ -180,7 +181,7 @@ body.page-menu {
         padding: 50px 0;
         font-family: 'Roboto', sans-serif;
         line-height: 1.5;
-        margin-top: 310px;
+        margin-top: 410px;
     }
     
     .footer-col {
@@ -277,3 +278,32 @@ body.page-menu {
             margin-left: 15px;
         }
     }
+
+.page2 {
+    margin-top: 250px;
+    margin-left: 130px;
+}
+
+.imagePage2 {
+    display: flex;
+    float: right;
+    width: 960px;
+    height: 540px;
+    margin-top: -379px;
+}
+
+.page2 i {
+    color: #777;
+    position: relative;
+    top: 4px;
+}
+
+.page2 h1 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page2 h5 {
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
