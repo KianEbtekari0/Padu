@@ -307,3 +307,23 @@ body.page-menu {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
 }
+
+.button-buy {
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 105px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.button-buy:hover {
+    color: rgb(31, 31, 31);
+    background-color: #FFF;
+    transition: 0.5s;
+}
